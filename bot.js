@@ -17,7 +17,7 @@ const fs = require('fs');
 
 
 
-const prefix = "2"
+const prefix = "4"
 
 client.on('ready', () => {
   console.log('cxxxx[]̲̅ ̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̲̅.̲̅ ̲̅ ̅/')
@@ -101,7 +101,7 @@ client.on('message', message => {
   client.on('message', message => {
   if (!message.guild) return;
  
-  if (message.content === '2join') {
+  if (message.content === '4join') {
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
         .then(connection => {
